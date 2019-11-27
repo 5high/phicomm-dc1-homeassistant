@@ -6,7 +6,6 @@
 switch:
   - platform: phicomm_dc1_switch
     name: dc1_1
-#    hidden: true
     ip: 192.168.2.90
     ports: {'1':'dc1_1_s1','2':'dc1_1_s2','3':'dc1_1_s3'}
 
@@ -21,10 +20,7 @@ sensor:
         friendly_name: 当前功率
         value_template: "{{ states.switch.dc1_1.attributes.p }}"
         unit_of_measurement: W
-      # dc1_3_totale:
-      #   friendly_name: 累计用电
-      #   value_template: "{{ states.switch.dc1_3.attributes.totalelect }}"
-      #   unit_of_measurement: 度
+
 
 group:
   dc1_1:
@@ -33,7 +29,6 @@ group:
     entities:
       - sensor.dc1_1_v
       - sensor.dc1_1_p
-    # - sensor.dc1_1_totale
       - switch.dc1_1
       - switch.dc1_1_s1
       - switch.dc1_1_s2
