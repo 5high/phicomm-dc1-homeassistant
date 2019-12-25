@@ -56,7 +56,6 @@ group:
     entities:
       - sensor.dc1_shufang_v
       - sensor.dc1_shufang_p
-      - sensor.dc1_shufang_totale
       - switch.dc1_shufang
       - switch.dc1_shufang_s1
       - switch.dc1_shufang_s2
@@ -67,7 +66,6 @@ group:
     entities:
       - sensor.dc1_huayuan_v
       - sensor.dc1_huayuan_p
-      - sensor.dc1_huayuan_totale
       - switch.dc1_huayuan
       - switch.dc1_huayuan_s1
       - switch.dc1_huayuan_s2
@@ -78,7 +76,6 @@ group:
     entities:
       - sensor.dc1_chufang_v
       - sensor.dc1_chufang_p
-      - sensor.dc1_chufang_totale
       - switch.dc1_chufang
       - switch.dc1_chufang_s1
       - switch.dc1_chufang_s2
