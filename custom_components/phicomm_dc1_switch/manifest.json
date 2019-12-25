@@ -1,5 +1,5 @@
 {
-  "domain": "phicomm_dc1_switch",
+  "domain": "phicomm_dc1",
   "name": "Phicomm Dc1 Switch",
   "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
   "dependencies": [],
