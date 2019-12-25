@@ -8,17 +8,14 @@ phicomm-dc1-homeassistant
 switch:
   - platform: phicomm_dc1
     name: dc1_shufang
-    hidden: true
     ip: 192.168.0.111
     ports: {'1':'dc1_shufang_s1','2':'dc1_shufang_s2','3':'dc1_shufang_s3'}
   - platform: phicomm_dc1
     name: dc1_huayuan
-    hidden: true
     ip: 192.168.0.112
     ports: {'1':'dc1_huayuan_s1','2':'dc1_huayuan_s2','3':'dc1_huayuan_s3'}
   - platform: phicomm_dc1
     name: dc1_chufang
-    hidden: true
     ip: 192.168.0.113
     ports: {'1':'dc1_chufang_s1','2':'dc1_chufang_s2','3':'dc1_chufang_s3'}
 
