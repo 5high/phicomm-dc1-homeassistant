@@ -1,0 +1,6 @@
+{
+  "name": "Phicomm DC1",
+  "country": "CN",
+  "render_readme": false,
+  "domains": ["sensor","swtich"]
+}
