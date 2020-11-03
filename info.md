@@ -108,6 +108,10 @@ homeassistant:
     switch.dc1_chufang_s3:
       friendly_name: 由你定
 ```
-更多教程：http://1t.click/avAU | 电报  群：http://1t.click/avAX |
-电报频道：http://1t.click/avBs | Twitter ：http://1t.click/avBg |
-Facebook：http://1t.click/avBn |
+
+更多教程    :https://sumju.net
+电报  群    :https://t.me/joinchat/J26zVFGMhWWB1sBTFvcjaA
+电报频道    :https://t.me/itcommander
+Twitter    :https://twitter.com/itcommander2
+Facebook.  :https://www.facebook.com/itcommander.itcommander.1
+
