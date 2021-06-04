@@ -1,6 +1,7 @@
 {
   "domain": "phicomm_dc1",
   "name": "dc1",
+  "version": "1.0",
   "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
   "dependencies": [],
   "codeowners": [],
